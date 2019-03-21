@@ -1,58 +1,186 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.css">
-	<title>タイトル</title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<!-- <link rel="icon" href="img/favicon.ico"> -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>ポートフォリオ</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!-- <link rel="icon" href="img/favicon.ico"> -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header id="header">
+			<div class="inner">
+				<h1>
+					<a href="#">Takuya Iida's Site</a>
+				</h1>
 
+				<!-- header-nav -->
+				<nav class="header-nav">
+					<ul class="header-list">
+						<li class="header-item"><a href="#">About</a></li>
+						<li class="header-item"><a href="#">Service</a></li>
+						<li class="header-item"><a href="#">Portfolio</a></li>
+						<li class="header-item"><a href="#">Price</a></li>
+						<li class="header-item"><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /header-nav -->
+			</div>
+			<!-- /inner -->
+		</header>
+		<!-- /header -->
 
-	<!-- header -->
-	<header id="header">
-		<div class="inner">
+		<!-- /content -->
+		<main>
+			<section id="thumnail">
+				<h2>爆速コーディング</h2>
+			</section>
 
-			<h1 class="header-logo"><a href=""><img src="img/header-logo.png" alt="ロゴ"></a></h1>
+			<section id="about">
+				<div class="inner">
+					<h2>About</h2>
+					<div class="fadein" id="about-contents">
+						<div id="profile">
+							<img src="images/iida.jpg" alt="プロフィール画像" />
+							<ul>
+								<li>Name:Takuya Iida</li>
+								<li>Age:23</li>
+							</ul>
+						</div>
 
-			<!-- header-nav -->
-			<nav class="header-nav">
-				<ul class="header-list">
-					<li class="header-item"><a href="#">MENU1</a></li>
-					<li class="header-item"><a href="#">MENU2</a></li>
-					<li class="header-item"><a href="#">MENU3</a></li>
-					<li class="header-item"><a href="#">MENU4</a></li>
-					<li class="header-item"><a href="#">MENU5</a></li>
-				</ul>
-			</nav><!-- /header-nav -->
+						<div id="description">
+							<p>
+								この度は私のポートフォリオをご覧いただきありがとうございます。<br /><br />
 
-		</div><!-- /inner -->
-	</header><!-- /header -->
+								私は, webサイト制作をサブに活動している<br />
+								飯田琢矢と申します。 <br />
+								フリーランスのフロントエンジニアとして<br />
+								活動しています。 <br />
+								このサイトはデザインからコーディング、<br />
+								サーバーアップまで全て一人で行いました。 <br />
 
-	<!-- /content -->
-	<div id="content">
-		<div class="inner">
+								制作では, 実務経験のあるエンジニアとして<br />
+								コーディング規約に沿った保守性の高い開発を<br />
+								心がけています。 <br />
+								web制作でお困りのかたどなたでも<br />
+								ご相談いただければと思います。<br />
+								よろしくお願いいたします。
+							</p>
 
-		</div><!-- /inner -->
-	</div><!-- /content -->
+							<h3>スキルセット</h3>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>js</li>
+								<li>php</li>
+								<li>wordpress</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
-	<!-- footer -->
-	<footer id="footer">
-		<div class="inner">
+			<section id="service">
+				<div class="inner">
+					<h2>Service</h2>
+					<div class="fadein" id="service-list">
+						<section id="coding">
+							<img src="images/service.png" alt="サービス" />
+							<h3>コーディング</h3>
+							<p>
+								デザイン通りにコーディングさせていただきます。<br />
+								アニメーションの導入にも対応しております。 <br />
+								お気軽にご相談ください。
+							</p>
+						</section>
 
-			<p class="copy">&copy;</p><!-- /copy -->
+						<section id="responsive">
+							<img src="images/service.png" alt="サービス" />
+							<h3>レスポンシブ</h3>
+							<p>
+								デザイン通りにコーディングさせていただきます。<br />
+								アニメーションの導入にも対応しております。 <br />
+								お気軽にご相談ください。
+							</p>
+						</section>
 
-		</div><!-- /inner -->
-	</footer><!-- /footer -->
+						<section id="wordpress">
+							<img src="images/service.png" alt="サービス" />
+							<h3>Wordpress</h3>
+							<p>
+								デザイン通りにコーディングさせていただきます。<br />
+								アニメーションの導入にも対応しております。 <br />
+								お気軽にご相談ください。
+							</p>
+						</section>
+					</div>
+				</div>
+			</section>
 
+			<section id="portfolio">
+				<h2>Portfolio</h2>
+				<div id="slides"></div>
+				<div id="works">
+					<a href="#">全ての制作物はこちら</a>
+				</div>
+			</section>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="js/script.js"></script>
+			<section id="price">
+				<h2>Price</h2>
 
-</body>
+				<table>
+					<tr>
+						<th>コーディング(下層)</th>
+						<td>6,000円〜</td>
+					</tr>
+					<tr>
+						<th>コーディング(トップ)</th>
+						<td>13,000円〜</td>
+					</tr>
+					<tr>
+						<th>コーディング(LP)</th>
+						<td>27,000円〜</td>
+					</tr>
+					<tr>
+						<th>レスポンシブ化</th>
+						<td>18,000円〜</td>
+					</tr>
+					<tr>
+						<th>WordPress化</th>
+						<td>35,000円〜</td>
+					</tr>
+				</table>
+
+				<p>※あくまでも目安です。ボリュームや内容によって変動するので、お気軽にご相談ください。柔軟に対応させていただきます。</p>
+			</section>
+
+			<section id="contact">
+				<h2>Contact</h2>
+
+				<form action="mailto:libertytakuya@yahoo.co.jp" method="POST" enctype="text/plain" name="mail">
+					<input type="text" size="20" name="name" />
+					<input type="text" size="20" name="address" />
+					<textarea name="request" rows="2" cols="20"> </textarea>
+					<input type="submit" value="送信" />
+					<input type="reset" name="mail" value="リセット" />
+				</form>
+			</section>
+		</main>
+		<!-- /content -->
+
+		<!-- footer -->
+		<footer id="footer">
+			<p class="copy">Copyright &copy; Takuya Iida All rights rs</p>
+			<!-- /copy -->
+		</footer>
+		<!-- /footer -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
